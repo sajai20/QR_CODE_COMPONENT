@@ -21,8 +21,8 @@ In this project i have given the solution for QR code components from Frontend M
 
 ### Links
 
-- Solution URL: [solution URL here](https://your-solution-url.com)
-- Live Site URL: [live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL here](https://github.com/sajai20/QR_CODE_COMPONENT/)
+- Live Site URL: [live site URL here](https://eclectic-gecko-795685.netlify.app/)
 
 ## My process
 
@@ -142,5 +142,5 @@ img {
 
 ## Author
 
-- Website - [sajaikumar](https://www.your-site.com)
+- Website - [sajaikumar](https://eclectic-gecko-795685.netlify.app/)
 - Frontend Mentor - [@sajai20](https://www.frontendmentor.io/profile/yourusername)
