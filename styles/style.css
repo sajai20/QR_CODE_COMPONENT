@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-White: #ffffff;
+    --clr-Light-gray: #d6e2f0;
+    --clr-Grayish-blue: #7b879d;
+    --clr-Dark-blue: #1f3251;
+}
+
+/* only for paragraph */
+html {
+    font-size: 15px;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--clr-Light-gray);
+}
+
+.container {
+    width: 100%;
+    /* margin: auto; */
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    height: 750px;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    background-color: var(--clr-White);
+    padding: 1.25rem;
+    width: 323px;
+    /* margin: auto; */
+    border-radius: 10px;
+}
+
+.card_img_container {
+    margin-bottom: 1.5rem;
+}
+
+/* if we want to give the border radius for the image we need to add radius by mentioning the ing tag using parent class */
+.card_img_container img {
+    border-radius: 10px;
+}
+
+.card_content_container {
+    text-align: center;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+}
+
+.card_title {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--clr-Dark-blue);
+    margin-bottom: 1.5rem;
+}
+
+.card_description {
+    font-weight: 400;
+    color: var(--clr-Grayish-blue);
+    margin-bottom: 2rem;
+}
